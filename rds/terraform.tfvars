@@ -1,0 +1,11 @@
+instance_class = "db.m7g.large"
+replica_instance_class  = "db.m7g.large"
+allocated_storage        = 200
+create_read_replica      = true
+db_instance_identifier   = "newone"
+master_username          = "dbusernew"
+multi_az                 = true
+secret_name              = "new"
+subnet_ids               = ["subnet-0b1f4dacd8ce8236c", "subnet-05bf80af4d57a53f5"]
+vpc_id                   = "vpc-013924814d290ba7b"
+vpc_security_group_ids   = ["sg-0cde1615e201c64aa"]
